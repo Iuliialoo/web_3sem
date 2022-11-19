@@ -1,0 +1,75 @@
+:root{
+    font-size: 62.5%;
+    --blackText-color: #2A2A2A;
+    --whiteText-color: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+}
+
+h1{
+    font-size: 3.5rem;
+    color:var(--blackText-color);
+    line-height: 117%;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+h2 {
+    color:var(--blackText-color);
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+p{
+    color:var(--blackText-color);
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 150%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.textButton{
+    /*color:var(--whiteText-color);*/
+    
+    border-radius: 0.5rem;
+    background-color: #6A19F5;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.05);
+    
+    color:var(--whiteText-color);
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 117%;
+    letter-spacing: 0.05em;
+}
+
+.textOne{
+    font-size: 2.86rem;
+    line-height: 130%;
+}
+
+.blockquote{
+    font-size: 1.6rem;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+} 
+
+.wordCount10{
+    color: var(--blackText-color);
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 130%;
+}
+
+ /* {
+    color:var(--whiteText-color);
+} */
