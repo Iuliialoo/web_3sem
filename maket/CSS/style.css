@@ -69,6 +69,15 @@ a{
     font-weight: 500;
     font-size: 1.6rem;
     line-height: 130%;
+    text-transform: uppercase;
+}
+
+.wordCount1{
+    color: var(--blackText-color);
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 130%;
+    text-transform: capitalize;
 }
 
  /* {
