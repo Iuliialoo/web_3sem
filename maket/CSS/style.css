@@ -194,7 +194,7 @@ blockquote{
 }
 
 .socialMedia{
-    display: inline;
+    display: inline-block;
 }
 
 .lastButton{
