@@ -63,6 +63,26 @@ a{
     
 }
 
+.sectionLightBlue{
+    background-color: #74C5FF; 
+    padding-top: 7.5rem;
+}
+
+.sectionPink{
+    background-color: #FF6D8D; 
+    text-align: center; 
+    padding-top: 10rem;
+}
+
+.sectionWhiteFirst{
+    padding-top: 5rem;
+}
+
+.sectionBlue{
+    background-color: #2580C1;
+    padding-top: 10rem;
+}
+
 .textFirst{
     margin: 0 auto 2rem;
     font-size: 2.86rem;
@@ -103,13 +123,13 @@ blockquote{
 
 .circle{
     display: inline-block;
-
     width: 1rem;
     height: 1rem;
     margin: auto 1rem auto 1rem;
     border: 0.1rem solid var(--blackText-color);
     border-radius: 50%; 
     background-color: transparent;
+    margin-bottom: 10rem;
 }
 
 .circleButton{
@@ -129,7 +149,6 @@ blockquote{
 .thirdPictureBlue{
     width: 375;
     height: 263; 
-    margin-bottom: 3rem;
 }
 
 .titleBlue{
