@@ -4,6 +4,7 @@
     --whiteText-color: #ffffff;
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
+    font-weight: 500;
 }
 
 h1{
@@ -14,7 +15,8 @@ h1{
     text-align: center;
     letter-spacing: 0.05em;
 
-    margin: 0 0 3rem;
+    margin-top: 0;
+    margin-bottom: 3rem;
 }
 
 h2 {
@@ -26,12 +28,11 @@ h2 {
     letter-spacing: 0.05em;
     text-transform: uppercase;
 
-    margin: 0 auto 2rem;
+    margin-bottom: 2rem;
 }
 
 p{
     color:var(--blackText-color);
-    font-weight: 500;
     font-size: 1.4rem;
     line-height: 150%;
 
@@ -59,49 +60,29 @@ a{
     width: 34.5rem;
 
     padding: 1.45rem 5.65rem;
-    margin: 1.5rem 0 10rem 1.5rem;
-    
+    margin: 0 1.5rem 0 1.5rem;
 }
 
 .sectionLightBlue{
     background-color: #74C5FF; 
-    padding-top: 7.5rem;
-}
-
-.sectionPink{
-    background-color: #FF6D8D; 
-    text-align: center; 
-    padding-top: 10rem;
-}
-
-.sectionWhiteFirst{
-    padding-top: 5rem;
-}
-
-.sectionBlue{
-    background-color: #2580C1;
-    padding-top: 10rem;
-}
-
-.sectionWhiteSecond{
-    padding-top: 7.5rem;
+    padding: 7.5rem 0 8.55rem 0;
 }
 
 .textFirst{
-    margin: 0 auto 2rem;
+    margin-bottom: 2rem;
     font-size: 2.86rem;
     line-height: 130%;
 }
 
 .textLightBlue{
-    margin: 0px auto 4.5rem;
+    margin-bottom: 4.5rem;
 
 }
 
-.firstPictureLightBlue{
-    width: 375;
-    height: 305; 
-    margin-bottom: 8.55rem;
+.sectionPink{
+    background-color: #FF6D8D; 
+    text-align: center; 
+    padding: 10rem 0 10rem 0;
 }
 
 .titlePink{
@@ -111,7 +92,6 @@ a{
 blockquote{
     line-height: 130%;
     font-size: 1.6rem;
-    font-weight: 500;
 
     margin: 0 3.4rem 3rem 3.4rem;
 } 
@@ -133,26 +113,23 @@ blockquote{
     border: 0.1rem solid var(--blackText-color);
     border-radius: 50%; 
     background-color: transparent;
-    margin-bottom: 10rem;
 }
 
 .circleButton{
     opacity: 0;
 }
 
-.secondPictureWhite{
-    width: 375;
-    height: 375; 
-    margin-bottom: 5rem;
+.sectionWhiteFirst{
+    padding: 5rem 0 5rem 0;
 }
 
 .textWhite{
     margin-bottom: 5rem;
 }
 
-.thirdPictureBlue{
-    width: 375;
-    height: 263; 
+.sectionBlue{
+    background-color: #2580C1;
+    padding: 10rem 0 9.6rem 0;
 }
 
 .titleBlue{
@@ -161,26 +138,23 @@ blockquote{
 
 .textBlue{
     color: var(--whiteText-color);
-    padding-bottom: 9.6rem;
 }
 
-.fourthPictureWhite{
-    width: 375;
-    height: 304;
-    margin-bottom: 5rem;
+.sectionWhiteSecond{
+    padding: 7.5rem 0 5rem 0;
 }
 
-.fifthPictureFooter{
-    margin: 0 1.5rem 3rem 1.5rem;
+footer{
+    background-color: #FFF2D6;
+    padding-bottom: 9rem;
 }
 
 .textFooter{
-    margin: auto 5.2rem 5rem auto;
+    margin: 0 5.2rem 5rem 1.5rem;
 }
 
 .wordCount10{
     color: var(--blackText-color);
-    font-weight: 500;
     font-size: 1.6rem;
     line-height: 130%;
 
