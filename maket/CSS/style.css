@@ -13,6 +13,9 @@ h1{
     font-weight: 400;
     text-align: center;
     letter-spacing: 0.05em;
+
+    margin: 0 0 3rem;
+    padding-top: 7.5rem;
 }
 
 h2 {
@@ -23,6 +26,8 @@ h2 {
     text-align: center;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+
+    margin: 0 auto 2rem;
 }
 
 p{
@@ -30,6 +35,8 @@ p{
     font-weight: 500;
     font-size: 1.4rem;
     line-height: 150%;
+
+    margin: 0 1.5rem auto 1.5rem;
 }
 
 a{
@@ -37,8 +44,6 @@ a{
 }
 
 .textButton{
-    /*color:var(--whiteText-color);*/
-    
     border-radius: 0.5rem;
     background-color: #6A19F5;
     
@@ -49,35 +54,141 @@ a{
     line-height: 117%;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+
+    display: block;
+    min-height: 5rem;
+    width: 34.5rem;
+
+    padding: 1.45rem 5.65rem;
+    margin: 1.5rem 0 10rem 1.5rem;
+    
 }
 
-.textOne{
+.textFirst{
+    margin: 0 auto 2rem;
     font-size: 2.86rem;
     line-height: 130%;
 }
 
-.blockquote{
-    font-size: 1.6rem;
+.textLightBlue{
+    margin: 0px auto 4.5rem;
+
+}
+
+.firstPictureLightBlue{
+    width: 375;
+    height: 305; 
+    margin-bottom: 8.55rem;
+}
+
+.titlePink{
+    margin: 0 auto 5rem;
+    padding-top: 10rem;
+}
+
+blockquote{
     line-height: 130%;
-    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+
+    margin: 0 3.4rem 3rem 3.4rem;
 } 
+
+.namePink{
+    margin-bottom: 0.5rem;
+}
+
+.underNamePink{
+    opacity: 0.7;
+    margin-bottom: 3rem;
+}
+
+.circle{
+    display: inline;
+
+    width: 1rem;
+    height: 1rem;
+    margin: auto 1rem auto 1rem;
+    border: 0.1rem solid var(--blackText-color);
+    border-radius: 50%; 
+    background-color: transparent;
+}
+
+.circleButton{
+    /* width: 100%;
+    height: 100%; */
+    opacity: 0;
+}
+
+.secondPictureWhite{
+    width: 375;
+    height: 375; 
+    margin: 5rem auto 5rem;
+}
+
+.textWhite{
+    margin-bottom: 5rem;
+}
+
+.thirdPictureBlue{
+    width: 375;
+    height: 263; 
+    padding-top: 10rem;
+    margin-bottom: 3rem;
+}
+
+.titleBlue{
+    color: var(--whiteText-color);
+}
+
+.textBlue{
+    color: var(--whiteText-color);
+    padding-bottom: 9.6rem;
+}
+
+.fourthPictureWhite{
+    width: 375;
+    height: 304;
+    padding-top: 7.5rem;
+    margin-bottom: 5rem;
+}
+
+.fifthPictureFooter{
+    margin: 0 1.5rem 3rem 1.5rem;
+}
+
+.textFooter{
+    margin: auto 5.2rem 5rem auto;
+}
 
 .wordCount10{
     color: var(--blackText-color);
     font-weight: 500;
     font-size: 1.6rem;
     line-height: 130%;
-    text-transform: uppercase;
+
+    display: block;
+    margin-top: 3.5rem;
 }
 
-.wordCount1{
-    color: var(--blackText-color);
-    font-weight: 500;
-    font-size: 1.6rem;
-    line-height: 130%;
-    text-transform: capitalize;
+.followUs{
+    text-align: center;
+    margin: 0 auto 1rem auto;;
 }
 
- /* {
-    color:var(--whiteText-color);
-} */
+.ulSocial{
+    margin: 0 1.5rem 3rem 1.5rem;
+}
+
+.socialMedia{
+    display: inline;
+}
+
+.lastButton{
+    margin: 0 auto 3rem auto;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.05);
+}
+
+.lastText{
+    opacity: 0.3;
+}
