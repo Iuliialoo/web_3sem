@@ -43,6 +43,10 @@ a{
     text-decoration: none;
 }
 
+nav{
+    display: none;
+}
+
 .textButton{
     border-radius: 0.5rem;
     background-color: #6A19F5;
@@ -164,7 +168,7 @@ footer{
 
 .followUs{
     text-align: center;
-    margin: 0 auto 1rem auto;;
+    margin: 5rem auto 1rem auto;;
 }
 
 .ulSocial{
@@ -182,4 +186,14 @@ footer{
 
 .lastText{
     opacity: 0.3;
+}
+
+@media screen and (min-wight: 500px) {
+    nav{
+        display: initial;
+    }   
+
+    button{
+        display: none;
+    }
 }
