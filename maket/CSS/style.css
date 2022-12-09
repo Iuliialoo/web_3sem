@@ -97,14 +97,14 @@ header{
     letter-spacing: 0.05em;
     text-transform: uppercase;
 
-    display: flex;
+    display: block;
     min-height: 5rem;
     width: 34.5rem;
-
-    justify-content: center;
-    align-items: center;
-    /* padding: 1.45rem 5.65rem; */
-    margin: 0 1.5rem 0 1.5rem;
+    text-align: center;
+    padding: 1.45rem 0;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .buttonDonate{
@@ -134,9 +134,10 @@ header{
 }
 
 .contentLightBlue{
-    max-width: 1514px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    /* max-height: 54rem; */
 }
 
 .groupTextLightBlue{
@@ -221,15 +222,54 @@ blockquote{
 
 .sectionWhiteFirst{
     padding: 5rem 0 5rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contentWhiteFirst{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1680px;
+    width: 100%;
+}
+
+.groupTextWhiteFirst{
+    width: 100%;
+    align-items: center;
+    padding: 0 1.5rem;
 }
 
 .textWhite{
     margin-bottom: 5rem;
 }
 
+.pictureWhiteFirst{
+    display: block;
+    max-width: 830px;
+    width: 100%;   
+    height: auto;
+}
+
 .sectionBlue{
     background-color: #2580C1;
     padding: 10rem 0 9.6rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contentBlue{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1514px;
+    width: 100%;
+}
+
+.groupTextBlue{
+    max-width: 578px;
+    width: 100%;
+    padding: 0 1.5rem;
 }
 
 .titleBlue{
@@ -240,13 +280,67 @@ blockquote{
     color: var(--whiteText-color);
 }
 
+.pictureBlue{
+    display: block;
+    max-width: 926px;
+    width: 100%;
+    height: auto;
+}
+
+.buttonYellow{
+    margin-top: 4rem;
+    display: none;
+    width: 21.5rem;
+    height: 5.9rem;
+
+    background: #F6C55A;
+    color: var(--blackText-color);
+
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 117%;
+    letter-spacing: 0.05em;
+
+    justify-content: center;
+    align-items: center;
+    
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 0.5rem;
+}
+
 .sectionWhiteSecond{
     padding: 7.5rem 0 5rem 0;
+    display: flex;
+    justify-content: center;
 }
+
+.contentWhiteSecond{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1680px;
+    width: 100%;
+}
+
+.groupTextWhiteSecond{
+    width: 100%;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+
+.pictureWhiteSecond{
+    display: block;
+    max-width: 884px;
+    width: 100%;   
+    height: auto;
+}
+
 
 footer{
     background-color: #FFF2D6;
     padding-bottom: 9rem;
+    display: flex;
+    justify-content: center;
 }
 
 .textFooter{
@@ -304,12 +398,16 @@ li{
     opacity: 0.3;
 }
 
-.wrapper {
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 16px;
-    padding-right: 16px;
+.lastTextPC{
+    display: none;
+}
+
+.lastTextPhone{
+    display: initial;
+}
+
+.footer{
+    max-width: 375px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -318,6 +416,9 @@ li{
     }
     .menuButton{
         display: none;
+    }
+    .textButton{
+        margin-left: 0;
     }
     .ulHeader{
         display: flex;
@@ -337,10 +438,14 @@ li{
         line-height: 113.5%;
         font-weight: 500;
     }
-
+    h2{
+        font-size: 5.2rem;
+        text-align: left;
+    }
     .contentLightBlue{
-        display: flex;
-        justify-content: space-evenly;
+        max-width: 1514px;
+        flex-direction: row;
+        justify-content: space-between;
         align-items: center;
     }
     .groupTextLightBlue{
@@ -373,22 +478,132 @@ li{
     .controlArrows{
         display: block;
     }
-}
+    .sectionWhiteFirst{
+        justify-content: flex-start;
+    }
+    .contentWhiteFirst{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .groupTextWhiteFirst{
+        max-width: 620px;
+        width: 100%;
+    }
+    .pictureWhiteFirst{
+        width: 130%;
+    }
+    .textWhite{
+       font-size: 2rem; 
+    }
 
-/* @media screen and (min-width: 130px) {
-    .menuButton{
-        display: none;
+    .contentBlue{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
-    .navHeader{
+    .groupTextBlue{
+        width: 100%;
+    }
+    .pictureBlue{
+        width: 100%;
+    }
+    .textBlue{
+        font-size: 2rem;
+    }
+    .buttonYellow{
         display: flex;
     }
-    .buttonDonate{
-        display: flex;
+    .sectionWhiteSecond{
+        justify-content: flex-start;
     }
-    .logotype1{
+    .contentWhiteSecond{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .groupTextWhiteSecond{
+        max-width: 620px;
+        width: 100%;
+    }
+    .pictureWhiteSecond{
+        width: 130%;
+    }
+    .buttonWhiteSecond{
+        width: 21.5rem;
+    }
+
+    .buttonWhiteFirst{
+        width: 28.4rem;
+    }
+    .lastTextPhone{
         display: none;
     }
-    .logotype2{
+    .lastTextPC{
         display: initial;
     }
-} */
+
+    .lastText{
+        font-size: 2rem;
+        line-height: 170%;
+    }
+    .textFooter{
+        max-width: 308px;
+        width: 100%;
+        font-size: 2rem;
+        line-height: 170%;
+    }
+
+    .wordCount10{
+        font-size: 2rem;
+        line-height: 130%;
+    }
+
+    .followUs{
+        text-align: left;
+        margin-top: 0;
+        margin-bottom: 2.2rem;
+        font-size: 2rem;
+        line-height: 130%;
+    }
+
+    .ulSocial{
+        margin: 0 0 5rem 0;
+    }
+
+    .footer{
+        margin-top: 7rem;
+        margin-bottom: 3.8rem;
+        display: flex;
+        max-width: 1440px;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .firstColumnFooter{
+        max-width: 321px;
+        width: 100%;
+    }
+
+    .twoColumn{
+        max-width: 374px;
+        width: 100%;
+        justify-content: space-between
+    }
+
+    .thirdColumnFooter{
+        max-width: 280px;
+        width: 100%;
+    }
+    .lastButton{
+        width: 28.4rem;
+    }
+    .fifthPictureFooter{
+        margin-top: -3.1rem;
+        margin-bottom: 2rem;
+        max-width: 321px;
+    }
+    .oneColumn{
+        height: 25.2rem;
+    }
+}
