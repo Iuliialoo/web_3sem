@@ -41,10 +41,52 @@ p{
 
 a{
     text-decoration: none;
+    color: var(--blackText-color);
 }
 
-nav{
+header{
+    display: flex;
+    padding: 1.5rem 1.5rem;
+
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.navHeader{
+    display: flex;
+    justify-content: space-around;
+    max-width: 98rem;
+    width: 100%;
+}
+
+.ulHeader{
     display: none;
+    font-size: 1.6rem;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    max-width: 64.4rem;
+}
+
+.logotype1{
+    
+}
+
+.logotype2{
+    display: none;
+    width: 26rem;
+    height: 13rem;
+}
+
+.galka{
+    display: flex;
+    align-items: center;
+}
+
+.menuButton{
+    border: none;
+    background-color: transparent;
 }
 
 .textButton{
@@ -52,24 +94,53 @@ nav{
     background-color: #6A19F5;
     
     color:var(--whiteText-color);
-    text-align: center;
     font-weight: 600;
     font-size: 1.8rem;
     line-height: 117%;
     letter-spacing: 0.05em;
     text-transform: uppercase;
 
-    display: block;
+    display: flex;
     min-height: 5rem;
     width: 34.5rem;
 
-    padding: 1.45rem 5.65rem;
+    justify-content: center;
+    align-items: center;
+    /* padding: 1.45rem 5.65rem; */
     margin: 0 1.5rem 0 1.5rem;
+}
+
+.buttonDonate{
+    display: none;
+    width: 16.2rem;
+    height: 5rem;
+
+    background: #F9523B;
+    color: var(--whiteText-color);
+
+    font-size: 1.8rem;
+    line-height: 117%;
+    letter-spacing: 0.05em;
+
+    justify-content: center;
+    align-items: center;
+    
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 0.5rem;
 }
 
 .sectionLightBlue{
     background-color: #74C5FF; 
     padding: 7.5rem 0 8.55rem 0;
+}
+
+.groupTextLightBlue{
+        max-width: 77.6rem;
+        min-height: 30rem;
+}
+
+.aa{
+    max-width: 1514px;
 }
 
 .textFirst{
@@ -80,7 +151,12 @@ nav{
 
 .textLightBlue{
     margin-bottom: 4.5rem;
+}
 
+.pictureLightBlue{
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .sectionPink{
@@ -163,7 +239,25 @@ footer{
     line-height: 130%;
 
     display: block;
-    margin-top: 3.5rem;
+}
+
+.twoColumn{
+    display: flex;
+    justify-content: space-evenly;
+
+    margin: 0;
+}
+
+.oneColumn{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24.5rem;
+}
+
+li{
+    list-style-type: none;
 }
 
 .followUs{
@@ -172,6 +266,8 @@ footer{
 }
 
 .ulSocial{
+    display: flex;
+    justify-content: space-between;
     margin: 0 1.5rem 3rem 1.5rem;
 }
 
@@ -188,12 +284,68 @@ footer{
     opacity: 0.3;
 }
 
-@media screen and (min-wight: 500px) {
-    nav{
-        display: initial;
-    }   
+.wrapper {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
 
-    button{
+@media screen and (min-width: 900px) {
+    .menuButton{
         display: none;
     }
+    .ulHeader{
+        display: flex;
+    }
+    .buttonDonate{
+        display: flex;
+    }
+    .logotype1{
+        display: none;
+    }
+    .logotype2{
+        display: initial;
+    }
+    header{
+        padding: 0 1.5rem;
+    }
+    h1{
+        font-size: 9.6rem;
+        line-height: 113.5%;
+    }
+    .textFirst{
+        font-size: 3.2rem;
+        line-height: 130%;
+    }
+    .sectionLightBlue{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .aa{
+        display: flex;
+        align-items: center;
+    }
+    .pictureLightBlue{
+
+    }
 }
+
+/* @media screen and (min-width: 130px) {
+    .menuButton{
+        display: none;
+    }
+    .navHeader{
+        display: flex;
+    }
+    .buttonDonate{
+        display: flex;
+    }
+    .logotype1{
+        display: none;
+    }
+    .logotype2{
+        display: initial;
+    }
+} */

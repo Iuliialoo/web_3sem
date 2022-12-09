@@ -16,24 +16,34 @@
 </head>
 <body>
     <header>
-        <a href=""><img src="picture/mathopolis-jrmf 2.svg" alt="main page"></a>
-        <button><img src="picture/Group 2013.png" alt="Menu"></button>
-        <nav>
-            <ul>
-                <li><a href="/">PUZZLES</a></li>
-                <li><a href="/">GET INVOLVED</a></li>
-                <li><a href="/">EVENTS</a></li>
-                <li><a href="/">ABOUT</a></li>
-                <li><a href="/">STORE</a></li>
-            </ul>
-        </nav>
+        <div class="header">
+            <div>
+                <a href=""><img src="picture/mathopolis-jrmf 2.svg" alt="main page" class="logotype1"></a>
+                <a href=""><img src="picture/mathopolis-horizontal 1.svg" alt="main page" class="logotype2"></a>
+            </div>
+            <nav class="navHeader">
+                <ul class="ulHeader">
+                    <li><a href="/">PUZZLES</a></li>
+                    <li class="galka"><a href="/">GET INVOLVED</a><img src="picture/galka.svg" alt=""></li>
+                    <li class="galka"><a href="/">ABOUT</a><img src="picture/galka.svg" alt=""></li>
+                    <li class="galka"><a href="/">EVENTS</a><img src="picture/galka.svg" alt=""></li>
+                    <li><a href="/">STORE</a></li>
+                </ul>
+                <a href="/" class="buttonDonate">DONATE</a>
+            </nav>
+            <button class="menuButton"><img src="picture/Group 2013.png" alt="Menu"></button>
+        </div>
     </header>
     <main>
         <section class="sectionLightBlue">
-            <h1>VOLUNTEERS</h1>
-            <p class="textFirst">Make magical math moments in your community.</p>
-            <p class="textLightBlue">Mathopolis relies on volunteers to help create magical math moments for kids. We have a number of ways to get involved, from playing math puzzles in a virtual classroom to hosting your own festival.</p>
-            <img src="picture/photo1.svg" alt="" width="375" height="305">
+            <div class="aa">
+                <div class="groupTextLightBlue">
+                    <h1>VOLUNTEERS</h1>
+                    <p class="textFirst">Make magical math moments in your community.</p>
+                    <p class="textLightBlue">Mathopolis relies on volunteers to help create magical math moments for kids. We have a number of ways to get involved, from playing math puzzles in a virtual classroom to hosting your own festival.</p>
+                </div>
+                <img src="picture/photo1.svg" alt="" width="375" height="305" class="pictureLightBlue">
+            </div>
         </section>
         <section class="sectionPink">
             <h2 class="titlePink">Testimonials</h2>
@@ -69,20 +79,22 @@
     <footer>
         <img src="picture/photo5.svg" alt="" width="375" height="172" class="fifthPictureFooter">
         <p class="textFooter">We're a fiscally-sponsored project of a 501(c)3, Social and Environmental Entrepreneurs.</p>
-        <ul>
-            <li><a href="/" class="wordCount10">STUDENTS</a></li>
-            <li><a href="/" class="wordCount10">TEACHERS</a></li>
-            <li><a href="/" class="wordCount10">Volunteers</a></li>
-            <li><a href="/" class="wordCount10">PARENTS</a></li>
-            <li><a href="/" class="wordCount10">EVENTS</a></li>
-        </ul>
-        <ul>
-            <li><a href="/" class="wordCount10">PUZZLES</a></li>
-            <li><a href="/" class="wordCount10">ABOUT</a></li>
-            <li><a href="/" class="wordCount10">NEWS</a></li>
-            <li><a href="/" class="wordCount10">STORE</a></li>
-            <li><a href="/" class="wordCount10">DONATE</a></li>
-        </ul>
+        <div class="twoColumn">
+            <ul class="oneColumn">
+                <li><a href="/" class="wordCount10">STUDENTS</a></li>
+                <li><a href="/" class="wordCount10">TEACHERS</a></li>
+                <li><a href="/" class="wordCount10">Volunteers</a></li>
+                <li><a href="/" class="wordCount10">PARENTS</a></li>
+                <li><a href="/" class="wordCount10">EVENTS</a></li>
+            </ul>
+            <ul class="oneColumn">
+                <li><a href="/" class="wordCount10">PUZZLES</a></li>
+                <li><a href="/" class="wordCount10">ABOUT</a></li>
+                <li><a href="/" class="wordCount10">NEWS</a></li>
+                <li><a href="/" class="wordCount10">STORE</a></li>
+                <li><a href="/" class="wordCount10">DONATE</a></li>
+            </ul>
+        </div>  
         <p class="followUs">Follow us:</p>
         <ul class="ulSocial">
             <li class="socialMedia"><a href="/"><img src="picture/twitter.svg" alt="twitter"></a></li>
