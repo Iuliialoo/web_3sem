@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/reseter.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style-form.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div>
+                <a href="index.html"><img src="picture/mathopolis-jrmf 2.svg" alt="main page" class="logotype1"></a>
+                <a href="index.html"><img src="picture/mathopolis-horizontal 1.svg" alt="main page" class="logotype2"></a>
+            </div>
+            <ul class="ulHeader">
+                <li><a href="/">PUZZLES</a></li>
+                <li class="galka"><a href="/">GET INVOLVED</a><img src="picture/galka.svg" alt=""></li>
+                <li class="galka"><a href="/">ABOUT</a><img src="picture/galka.svg" alt=""></li>
+                <li class="galka"><a href="/">EVENTS</a><img src="picture/galka.svg" alt=""></li>
+                <li><a href="/">STORE</a></li>
+            </ul>
+            <a href="/" class="buttonDonate">DONATE</a>
+            <button class="menuButton"><img src="picture/menu.svg" alt="Menu"></button>
+        </div>
+    </header>
+    <main>
+        <div class="my-form">
+            <form  name="contact" method="POST" data-netlify="true">
+                <fieldset>
+                    <legend>Личная информация</legend>
+                    <label for="">
+                        <span>Имя</span>
+                        <input class="input-field" type="text" placeholder="Имя" name="name" required>
+                    </label>
+                    <label for="">
+                        <span>Дата Рождения</span>
+                        <input class="input-field" type="date" name="date of birth">
+                    </label>
+                    <label for="">
+                        <span>Пол</span>
+                        <div class="radio-button">
+                            <input type="radio" name="gender" value="woman">
+                            <span>Женский</span>
+                        </div>
+                        <div class="radio-button">
+                            <input type="radio" name="gender" value="man">
+                            <span>Мужской</span>
+                        </div>
+                    </label>
+                    <label for="">
+                        <span>Пароль</span>
+                        <input class="input-field" type="password" placeholder="Пароль" name="password" required>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Контактная информация</legend>
+                    <label for="">
+                        <span>Email</span>
+                        <input class="input-field" type="email" placeholder="Email" name="email">
+                    </label>
+                    <label for="">
+                        <span>Телефон</span>
+                        <input class="input-field" type="tel" placeholder="Телефон" name="number phone" required>
+                    </label>
+                    <label for="">
+                        <span>Время для связи</span>
+                        <div class="radio-button">
+                            <input type="checkbox" name="time" value="morning">
+                            <span>Утро</span>
+                        </div>
+                        <div class="radio-button">
+                            <input type="checkbox" name="time" value="afternoon">
+                            <span>День</span>
+                        </div>
+                        <div class="radio-button">
+                            <input type="checkbox" name="time" value="evening">
+                            <span>Вечер</span>
+                        </div>
+                        <div class="radio-button">
+                            <input type="checkbox" name="time" value="night">
+                            <span>Ночь</span>
+                        </div>
+                    </label>
+                </fieldset>
+                <button class="textButton text-with-img" type="reset">Сбросить <img src="picture/restart.svg" alt="" width="38" height="38"></button>
+                <button class="textButton text-with-img" type="submit">Отправить <img src="picture/send.svg" alt=""></button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="firstColumnFooter">
+                <img src="picture/photo5.svg" alt="" width="375" height="172" class="fifthPictureFooter">
+                <p class="textFooter">We're a fiscally-sponsored project of a 501(c)3, Social and Environmental Entrepreneurs.</p>
+                <p class="lastText lastTextPC">© 2007–2022 Mathopolis</p>
+            </div>
+            <div class="twoColumn">
+                <ul class="oneColumn">
+                    <li><a href="/" class="wordCount10">STUDENTS</a></li>
+                    <li><a href="/" class="wordCount10">TEACHERS</a></li>
+                    <li><a href="/" class="wordCount10">Volunteers</a></li>
+                    <li><a href="/" class="wordCount10">PARENTS</a></li>
+                    <li><a href="/" class="wordCount10">EVENTS</a></li>
+                </ul>
+                <ul class="oneColumn">
+                    <li><a href="/" class="wordCount10">PUZZLES</a></li>
+                    <li><a href="/" class="wordCount10">ABOUT</a></li>
+                    <li><a href="/" class="wordCount10">NEWS</a></li>
+                    <li><a href="/" class="wordCount10">STORE</a></li>
+                    <li><a href="/" class="wordCount10">DONATE</a></li>
+                </ul>
+            </div>  
+            <div class="ThirdColumnFooter">
+                <p class="followUs">Follow us:</p>
+                <ul class="ulSocial">
+                    <li class="socialMedia"><a href="/"><img src="picture/twitter.svg" alt="twitter"></a></li>
+                    <li class="socialMedia"><a href="/"><img src="picture/in.svg" alt="in"></a></li>
+                    <li class="socialMedia"><a href="/"><img src="picture/inst.svg" alt="instagram"></a></li>
+                    <li class="socialMedia"><a href="/"><img src="picture/facebook.svg" alt="facebook"></a></li>
+                    <li class="socialMedia"><a href="/"><img src="picture/youtube.svg" alt="youtube"></a></li>
+                </ul>
+                <div class="center">
+                    <a href="/" class="textButton lastButton">SUPPORT OUR CAUSE</a>
+                </div>
+            </div>
+            <p class="lastText lastTextPhone">© 2007–2022 Mathopolis</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+:root{
+    font-size: 62.5%;
+    --blackText-color: #2A2A2A;
+    --whiteText-color: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+html, body { height: 100%;}
+
+body > footer {
+  position: sticky;
+  top: 100vh;
+}
+
+.my-form{
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+label{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+legend{
+    font-size: 2rem;
+}
+
+span{
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.input-field{
+    padding: 1.5rem;
+}
+
+.input-field:focus{
+    background-color: #FFF2D6;;
+}
+
+.radio-button{
+    margin-top: 0.8rem;
+}
+
+.textButton:hover{
+    background: #F9523B;
+    transform: scale(1.04);
+    transition: 0.4s;
+}
+
+.text-with-img{
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0.5rem;
+}
+
+::selection{
+    color: #6A19F5;
+}
+
+a:active{
+    color: #F9523B;
+}
