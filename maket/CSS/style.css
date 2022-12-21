@@ -131,7 +131,7 @@ header{
     justify-content: center;
     align-items: center;
     
-    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.05);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.05);
     border-radius: 0.5rem;
 }
 
@@ -166,10 +166,9 @@ header{
 }
 
 .pictureLightBlue{
-    display: block;
-    max-width: 604px;
-    width: 100%;
-    height: auto;
+    height: 100%;
+    flex-grow: 1;
+    object-fit: contain;
 }
 
 .sectionPink{
@@ -258,10 +257,9 @@ blockquote{
 }
 
 .pictureWhiteFirst{
-    display: block;
-    max-width: 830px;
-    width: 100%;   
-    height: auto;
+    height: 100%;
+    flex-grow: 1;
+    object-fit: contain;
 }
 
 .sectionBlue{
@@ -294,10 +292,9 @@ blockquote{
 }
 
 .pictureBlue{
-    display: block;
-    max-width: 926px;
-    width: 100%;
-    height: auto;
+    height: 100%;
+    flex-grow: 1;
+    object-fit: contain;
 }
 
 .buttonYellow{
@@ -342,10 +339,9 @@ blockquote{
 }
 
 .pictureWhiteSecond{
-    display: block;
-    max-width: 884px;
-    width: 100%;   
-    height: auto;
+    height: 100%;
+    flex-grow: 1;
+    object-fit: contain;
 }
 
 
@@ -531,9 +527,6 @@ li{
     .groupTextLightBlue{
         width: 60%;
     }
-    .pictureLightBlue{
-        width: 110%;
-    }
     .textFirst{
         font-size: 3.2rem;
         line-height: 130%;
@@ -570,9 +563,6 @@ li{
         max-width: 620px;
         width: 100%;
     }
-    .pictureWhiteFirst{
-        width: 130%;
-    }
     .textWhite{
        font-size: 2rem; 
     }
@@ -583,9 +573,6 @@ li{
         align-items: center;
     }
     .groupTextBlue{
-        width: 100%;
-    }
-    .pictureBlue{
         width: 100%;
     }
     .textBlue{
@@ -605,9 +592,6 @@ li{
     .groupTextWhiteSecond{
         max-width: 620px;
         width: 100%;
-    }
-    .pictureWhiteSecond{
-        width: 130%;
     }
     .buttonWhiteSecond{
         width: 21.5rem;
